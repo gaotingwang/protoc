@@ -13,7 +13,6 @@ go install github.com/golang/protobuf/protoc-gen-go@v1.27
 注意：要用protoc-gen-go@v1.27 版本 
 ### 3.安装gen-micro
 这里选择的是 v3 的版本
-在课程制作的过程中 go-micro v4 刚出来测试过和proto 还有兼容问题等稳定可以切换
 ```
 go get -u github.com/asim/go-micro/cmd/protoc-gen-micro/v3    
 ```
